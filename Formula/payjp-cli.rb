@@ -2,23 +2,23 @@ class PayjpCli < Formula
   desc "PAY.JP CLI tool"
   homepage "https://github.com/payjp/payjp-cli"
   license "MIT"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.1/payjp-cli-darwin-arm64.tar.gz"
-      sha256 "6e87155d6c33c9f21d315cd9938a88251696add79315e73b0a49e0917f557959"
+      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.2/payjp-cli-darwin-arm64.tar.gz"
+      sha256 "a50af873fa8cfe6fa7897f51f4641364062237732dd14c7128b400d4b2aa42b0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.1/payjp-cli-linux-amd64.tar.gz"
-      sha256 "964c84886bf74f6cb279eb3c04292038c5cb580a4b30dcd5d481a673edf0e922"
+      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.2/payjp-cli-linux-amd64.tar.gz"
+      sha256 "19c7229169544e7859c8e145ddb1279784b87c468a0a79770f3691bf8a689154"
     end
     on_arm do
-      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.1/payjp-cli-linux-arm64.tar.gz"
-      sha256 "f035af9a6942fdb0d0754fb5e87bc720e113261cde1c33728f69a5de795d205b"
+      url "https://github.com/payjp/payjp-cli/releases/download/v0.1.2/payjp-cli-linux-arm64.tar.gz"
+      sha256 "9552dff93563da689bf065829e2419d56c48a1b7a762035cc1183308d91376ee"
     end
   end
 
